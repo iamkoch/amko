@@ -1,0 +1,37 @@
+$width: 1920;
+$height: 4534;
+$widthPx: $width * 1px;
+$heightPx: $height * 1px;
+
+@function calc-height($n) {
+  @return $n / $height * 100%;
+}
+
+@function calc-width($n) {
+  @return $n / $width * 100%;
+}
+
+html {
+  body {
+    max-width: $widthPx;
+    height: $heightPx;
+    .portion {
+
+      width: 100%;
+      display: block;
+      background-size: 100% 100%;
+    }
+    section#header {
+      background: url(/images/header-background.jpg) no-repeat;
+      height: calc-height(669);
+    }
+    section#tag-cloud {
+      background: url(/images/tagcloud-background.jpg) no-repeat;
+      height: calc-height(585);
+    }
+    section#our-work {
+      background-color: #ebdbc9;
+      height: calc-height(1088);
+    }
+  }
+}
