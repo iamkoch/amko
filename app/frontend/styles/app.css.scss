@@ -20,18 +20,25 @@ html {
       width: 100%;
       display: block;
       background-size: 100% 100%;
+      background-repeat: no-repeat;
     }
     section#header {
-      background: url(/images/header-background.jpg) no-repeat;
+      background-image: url(/images/header-background.jpg);
       height: calc-height(669);
     }
     section#tag-cloud {
-      background: url(/images/tagcloud-background.jpg) no-repeat;
+      background-image: url(/images/tagcloud-background.jpg);
       height: calc-height(585);
     }
     section#our-work {
       background-color: #ebdbc9;
       height: calc-height(1088);
+    }
+    section#our-people {
+      .hero {
+        height: 685px;
+        background-image: url(/images/our-people-huts.jpg);
+      }
     }
   }
 }
