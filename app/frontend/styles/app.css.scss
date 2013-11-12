@@ -14,29 +14,48 @@ $heightPx: $height * 1px;
 html {
   body {
     max-width: $widthPx;
-    height: $heightPx;
-    .portion {
-
+    .section-wrapper {
+      position: relative;
       width: 100%;
-      display: block;
+      float: left;
+      height: 0;
+      margin: 0;
+      &.header-wrapper {
+        padding-bottom: calc-width(669);
+      }
+      &.tag-cloud-wrapper {
+        padding-bottom: calc-width(585);
+      }
+      &.our-work-wrapper {
+        padding-bottom: calc-width(1088);
+      }
+      &.our-people-wrapper {
+      }
+    }
+
+    .portion {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
       background-size: 100% 100%;
       background-repeat: no-repeat;
     }
     section#header {
       background-image: url(/images/header-background.jpg);
-      height: calc-height(669);
+      //height: calc-height(669);
     }
     section#tag-cloud {
       background-image: url(/images/tagcloud-background.jpg);
-      height: calc-height(585);
+      //height: calc-height(585);
     }
     section#our-work {
       background-color: #ebdbc9;
-      height: calc-height(1088);
+      //height: calc-height(1088);
     }
     section#our-people {
       .hero {
-        height: 685px;
+        //height: 685px;
         background-image: url(/images/our-people-huts.jpg);
       }
     }
