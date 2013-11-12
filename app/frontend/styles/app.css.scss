@@ -29,7 +29,17 @@ html {
       &.our-work-wrapper {
         padding-bottom: calc-width(1088);
       }
+      &.our-people-header-wrapper {
+        padding-bottom: calc-width(685);
+      }
       &.our-people-wrapper {
+        padding-bottom: calc-width(517);
+      }
+      &.contact-wrapper {
+        padding-bottom: calc-width(997);
+      }
+      &.footer-wrapper {
+        padding-bottom: calc-width(55);
       }
     }
 
@@ -43,21 +53,30 @@ html {
     }
     section#header {
       background-image: url(/images/header-background.jpg);
-      //height: calc-height(669);
+      nav {
+        margin-top: calc-width(44);
+        height: 17.7877%;
+        width: 39.6875%;
+        background-color: #092536;
+      }
     }
     section#tag-cloud {
       background-image: url(/images/tagcloud-background.jpg);
-      //height: calc-height(585);
     }
     section#our-work {
       background-color: #ebdbc9;
-      //height: calc-height(1088);
+    }
+    section#our-people-header {
+      background-image: url(/images/our-people-huts.jpg);
     }
     section#our-people {
-      .hero {
-        //height: 685px;
-        background-image: url(/images/our-people-huts.jpg);
-      }
+      background-image: url(/images/our-people-background.jpg);
+    }
+    section#contact {
+      background-image: url(/images/contact-background.jpg);
+    }
+    section#footer {
+      background-color: #092536;
     }
   }
 }
