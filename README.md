@@ -1,22 +1,10 @@
-# Sinatra HTML5 Boilerplate
+# new amkoconsulting website
 
-This a Sinatra HTML5 boilerplate which implements the following gems and technologies:
-* HTML - HAML
-* CSS - SCSS, served by sprockets from /css
-* JS - CoffeeScript, served by sprockets from /js
-* Server - rack & thin
-* Development Server - shotgun
-* JSON Serialisation - yajl-ruby
+I'm making the new site for my limited company, [AMKO Consulting Ltd](http://amkoconsulting.co.uk).
 
-# Instructions
-* Check out the repo
-* cd into the directory
-* Run 'shotgun' (for development) or 'rackup'
-* Party
+It's designed for 1920px width, but will be responsive to fill the screen on a number of different resolutions
 
-# Thanks and Nods
+Tech Bit
+--------
 
-The layout for this project is based on the [play](https://github.com/play/play) project by GitHub.
-
-Obviously the major nod goes to [html5boilerplate!](http://html5boilerplate.com/). This project is based on v4.0.2
-
+I'm writing it on a quick-and-dirty Ruby/Sinatra/CoffeeScript/SCSS stack, based on my [Sinatra HTML5 Boilerplate](https://github.com/iamkoch/sinatra-html5-boilerplate)
